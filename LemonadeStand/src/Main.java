@@ -1,10 +1,10 @@
 
 public class Main {
 	public static void main(String[] args) {
-		LemonadeStand Ayyy = new LemonadeStand();
+		LemonadeStand stand = new LemonadeStand();
 		
-		Ayyy.purchase(4);
+		stand.purchase(4);
 		
-		System.out.println("Lemons In stock: " + Ayyy.getLemonsInStock());
+		System.out.println("Lemons In stock: " + stand.getLemonsInStock());
 	}
 }
